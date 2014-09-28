@@ -56,14 +56,14 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="100" y2="0" width="0" layer="20"/>
-<wire x1="100" y1="0" x2="100" y2="80" width="0" layer="20"/>
-<wire x1="100" y1="80" x2="0" y2="80" width="0" layer="20"/>
-<wire x1="0" y1="80" x2="0" y2="0" width="0" layer="20"/>
-<hole x="17.78" y="16.51" drill="4.318"/>
-<hole x="17.78" y="36.83" drill="4.318"/>
-<hole x="39.37" y="16.51" drill="4.318"/>
-<hole x="39.37" y="36.83" drill="4.318"/>
+<wire x1="0" y1="0" x2="58.09" y2="0" width="0" layer="20"/>
+<wire x1="58.09" y1="0" x2="58.09" y2="27.93" width="0" layer="20"/>
+<wire x1="58.09" y1="27.93" x2="0" y2="27.93" width="0" layer="20"/>
+<wire x1="0" y1="27.93" x2="0" y2="0" width="0" layer="20"/>
+<hole x="17.78" y="3.81" drill="4.318"/>
+<hole x="17.78" y="24.13" drill="4.318"/>
+<hole x="39.37" y="3.81" drill="4.318"/>
+<hole x="39.37" y="24.13" drill="4.318"/>
 </plain>
 <libraries>
 <library name="e11">
@@ -1405,19 +1405,19 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="U$1" library="e11" package="1X5_3.5MM_TERMINAL_BLOCK" value="1X5_3.5MM_TERMINAL_BLOCK" x="6.35" y="26.67" rot="R90"/>
-<element name="R1" library="resistor" package="0207/12" value="14k" x="17.78" y="21.59"/>
-<element name="R2" library="resistor" package="0207/12" value="14k" x="17.78" y="26.67"/>
-<element name="R3" library="resistor" package="0207/12" value="14k" x="17.78" y="31.75"/>
-<element name="Q1" library="transistor-npn" package="TO92" value="2N3904" x="29.21" y="20.32" rot="R90"/>
-<element name="Q2" library="transistor-npn" package="TO92" value="2N3904" x="29.21" y="26.67" rot="R90"/>
-<element name="Q3" library="transistor-npn" package="TO92" value="2N3904" x="29.21" y="33.02" rot="R90"/>
-<element name="R4" library="resistor" package="0207/12" value="28" x="39.37" y="20.32"/>
-<element name="R5" library="resistor" package="0207/12" value="28" x="39.37" y="26.67"/>
-<element name="R6" library="resistor" package="0207/12" value="28" x="39.37" y="33.02"/>
-<element name="GREEN" library="e11" package="8MM_LED" value="8MM_LED" x="52.07" y="17.78" rot="R270"/>
-<element name="WHITE" library="e11" package="8MM_LED" value="8MM_LED" x="52.07" y="26.67" rot="R270"/>
-<element name="RED" library="e11" package="8MM_LED" value="8MM_LED" x="52.07" y="35.56" rot="R270"/>
+<element name="U$1" library="e11" package="1X5_3.5MM_TERMINAL_BLOCK" value="1X5_3.5MM_TERMINAL_BLOCK" x="6.35" y="13.97" rot="R90"/>
+<element name="R1" library="resistor" package="0207/12" value="14k" x="17.78" y="8.89"/>
+<element name="R2" library="resistor" package="0207/12" value="14k" x="17.78" y="13.97"/>
+<element name="R3" library="resistor" package="0207/12" value="14k" x="17.78" y="19.05"/>
+<element name="Q1" library="transistor-npn" package="TO92" value="2N3904" x="29.21" y="7.62" rot="R90"/>
+<element name="Q2" library="transistor-npn" package="TO92" value="2N3904" x="29.21" y="13.97" rot="R90"/>
+<element name="Q3" library="transistor-npn" package="TO92" value="2N3904" x="29.21" y="20.32" rot="R90"/>
+<element name="R4" library="resistor" package="0207/12" value="28" x="39.37" y="7.62"/>
+<element name="R5" library="resistor" package="0207/12" value="28" x="39.37" y="13.97"/>
+<element name="R6" library="resistor" package="0207/12" value="28" x="39.37" y="20.32"/>
+<element name="GREEN" library="e11" package="8MM_LED" value="8MM_LED" x="52.07" y="5.08" rot="R270"/>
+<element name="WHITE" library="e11" package="8MM_LED" value="8MM_LED" x="52.07" y="13.97" rot="R270"/>
+<element name="RED" library="e11" package="8MM_LED" value="8MM_LED" x="52.07" y="22.86" rot="R270"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -1425,78 +1425,78 @@ design rules under a new name.</description>
 <contactref element="Q1" pad="3"/>
 <contactref element="Q2" pad="3"/>
 <contactref element="Q3" pad="3"/>
-<wire x1="29.21" y1="19.05" x2="29.21" y2="25.4" width="0" layer="19" extent="1-1"/>
-<wire x1="29.21" y1="31.75" x2="29.21" y2="19.05" width="0" layer="19" extent="1-1"/>
-<wire x1="6.35" y1="36.83" x2="29.21" y2="19.05" width="0" layer="19" extent="1-1"/>
+<wire x1="29.21" y1="6.35" x2="29.21" y2="12.7" width="0" layer="19" extent="1-1"/>
+<wire x1="29.21" y1="19.05" x2="29.21" y2="6.35" width="0" layer="19" extent="1-1"/>
+<wire x1="6.35" y1="24.13" x2="29.21" y2="6.35" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VCC">
 <contactref element="U$1" pad="1"/>
 <contactref element="GREEN" pad="POS"/>
 <contactref element="WHITE" pad="POS"/>
 <contactref element="RED" pad="POS"/>
-<wire x1="6.35" y1="16.51" x2="52.07" y2="37.06" width="0" layer="19" extent="1-1"/>
-<wire x1="52.07" y1="28.17" x2="52.07" y2="37.06" width="0" layer="19" extent="1-1"/>
-<wire x1="52.07" y1="19.28" x2="52.07" y2="28.17" width="0" layer="19" extent="1-1"/>
+<wire x1="6.35" y1="3.81" x2="52.07" y2="24.36" width="0" layer="19" extent="1-1"/>
+<wire x1="52.07" y1="15.47" x2="52.07" y2="24.36" width="0" layer="19" extent="1-1"/>
+<wire x1="52.07" y1="6.58" x2="52.07" y2="15.47" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="R1" pad="2"/>
 <contactref element="Q1" pad="2"/>
-<wire x1="24.13" y1="21.59" x2="27.305" y2="20.32" width="0" layer="19" extent="1-1"/>
+<wire x1="24.13" y1="8.89" x2="27.305" y2="7.62" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="R2" pad="2"/>
 <contactref element="Q2" pad="2"/>
-<wire x1="27.305" y1="26.67" x2="24.13" y2="26.67" width="0" layer="19" extent="1-1"/>
+<wire x1="27.305" y1="13.97" x2="24.13" y2="13.97" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="R3" pad="2"/>
 <contactref element="Q3" pad="2"/>
-<wire x1="27.305" y1="33.02" x2="24.13" y2="31.75" width="0" layer="19" extent="1-1"/>
+<wire x1="27.305" y1="20.32" x2="24.13" y2="19.05" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$4">
 <contactref element="Q1" pad="1"/>
 <contactref element="R4" pad="1"/>
-<wire x1="29.21" y1="21.59" x2="33.02" y2="20.32" width="0" layer="19" extent="1-1"/>
+<wire x1="29.21" y1="8.89" x2="33.02" y2="7.62" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <contactref element="Q2" pad="1"/>
 <contactref element="R5" pad="1"/>
-<wire x1="33.02" y1="26.67" x2="29.21" y2="27.94" width="0" layer="19" extent="1-1"/>
+<wire x1="33.02" y1="13.97" x2="29.21" y2="15.24" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$6">
 <contactref element="Q3" pad="1"/>
 <contactref element="R6" pad="1"/>
-<wire x1="29.21" y1="34.29" x2="33.02" y2="33.02" width="0" layer="19" extent="1-1"/>
+<wire x1="29.21" y1="21.59" x2="33.02" y2="20.32" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$7">
 <contactref element="R4" pad="2"/>
 <contactref element="GREEN" pad="NEG"/>
-<wire x1="52.07" y1="16.28" x2="45.72" y2="20.32" width="0" layer="19" extent="1-1"/>
+<wire x1="52.07" y1="3.58" x2="45.72" y2="7.62" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$8">
 <contactref element="R5" pad="2"/>
 <contactref element="WHITE" pad="NEG"/>
-<wire x1="45.72" y1="26.67" x2="52.07" y2="25.17" width="0" layer="19" extent="1-1"/>
+<wire x1="45.72" y1="13.97" x2="52.07" y2="12.47" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$9">
 <contactref element="R6" pad="2"/>
 <contactref element="RED" pad="NEG"/>
-<wire x1="52.07" y1="34.06" x2="45.72" y2="33.02" width="0" layer="19" extent="1-1"/>
+<wire x1="52.07" y1="21.36" x2="45.72" y2="20.32" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$10">
 <contactref element="U$1" pad="2"/>
 <contactref element="R1" pad="1"/>
-<wire x1="11.43" y1="21.59" x2="6.35" y2="21.59" width="0" layer="19" extent="1-1"/>
+<wire x1="11.43" y1="8.89" x2="6.35" y2="8.89" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$11">
 <contactref element="U$1" pad="3"/>
 <contactref element="R2" pad="1"/>
-<wire x1="11.43" y1="26.67" x2="6.35" y2="26.67" width="0" layer="19" extent="1-1"/>
+<wire x1="11.43" y1="13.97" x2="6.35" y2="13.97" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$12">
 <contactref element="U$1" pad="4"/>
 <contactref element="R3" pad="1"/>
-<wire x1="6.35" y1="31.75" x2="11.43" y2="31.75" width="0" layer="19" extent="1-1"/>
+<wire x1="6.35" y1="19.05" x2="11.43" y2="19.05" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
