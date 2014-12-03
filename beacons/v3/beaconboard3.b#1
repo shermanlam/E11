@@ -977,7 +977,7 @@ design rules under a new name.</description>
 <element name="C7" library="SparkFun-Passives" package="CAP-PTH-5MM" value="0.1uF" x="80.01" y="60.96" rot="R90"/>
 <element name="R16" library="SparkFun-Resistors" package="AXIAL-0.4" value="33" x="33.02" y="71.12" rot="R180"/>
 <element name="MODE3" library="e11" package="SPDT_SLIDE_SWITCH" value="SPD_SLIDE_SWITCH" x="91.44" y="24.13"/>
-<element name="S2" library="switch-omron" package="B3F-40XX" value="" x="12.7" y="12.7" rot="R270">
+<element name="B3F-4050" library="switch-omron" package="B3F-40XX" value="" x="12.7" y="12.7" rot="R270">
 <attribute name="OC_NEWARK" value="36K3105" x="12.7" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="B3F-4000" x="12.7" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="OMRON COMPONENTS USA" x="12.7" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1168,8 +1168,8 @@ design rules under a new name.</description>
 <wire x1="66.04" y1="5.08" x2="64.77" y2="3.81" width="0.6096" layer="1"/>
 <contactref element="S3" pad="3"/>
 <contactref element="S3" pad="4"/>
-<contactref element="S2" pad="3"/>
-<contactref element="S2" pad="4"/>
+<contactref element="B3F-4050" pad="3"/>
+<contactref element="B3F-4050" pad="4"/>
 <wire x1="10.2108" y1="69.7484" x2="10.2108" y2="57.2516" width="0.6096" layer="1"/>
 <wire x1="10.2108" y1="6.4516" x2="10.2108" y2="18.9484" width="0.6096" layer="1"/>
 <wire x1="10.2108" y1="18.9484" x2="10.2108" y2="57.2516" width="0.6096" layer="1"/>
@@ -1184,10 +1184,12 @@ design rules under a new name.</description>
 <wire x1="21.59" y1="54.61" x2="21.59" y2="40.64" width="0.6096" layer="1"/>
 <wire x1="21.59" y1="40.64" x2="24.13" y2="38.1" width="0.6096" layer="1"/>
 <wire x1="24.13" y1="38.1" x2="25.4" y2="38.1" width="0.6096" layer="1"/>
-<wire x1="113.03" y1="5.08" x2="114.3" y2="20.32" width="0" layer="19" extent="16-16"/>
 <wire x1="48.8696" y1="49.53" x2="48.8696" y2="56.5404" width="0.6096" layer="16"/>
 <wire x1="48.8696" y1="56.5404" x2="48.26" y2="57.15" width="0.6096" layer="16"/>
 <wire x1="48.26" y1="57.15" x2="48.8696" y2="57.15" width="0.6096" layer="16"/>
+<wire x1="113.03" y1="5.08" x2="118.11" y2="5.08" width="0.6096" layer="16"/>
+<wire x1="118.11" y1="5.08" x2="120.65" y2="7.62" width="0.6096" layer="16"/>
+<wire x1="120.65" y1="7.62" x2="120.65" y2="21.59" width="0.6096" layer="16"/>
 </signal>
 <signal name="VDD">
 <contactref element="IC1" pad="1"/>
@@ -1331,8 +1333,8 @@ design rules under a new name.</description>
 <contactref element="R11" pad="P$2"/>
 <contactref element="S3" pad="1"/>
 <contactref element="S3" pad="2"/>
-<contactref element="S2" pad="1"/>
-<contactref element="S2" pad="2"/>
+<contactref element="B3F-4050" pad="1"/>
+<contactref element="B3F-4050" pad="2"/>
 <wire x1="73.66" y1="60.96" x2="27.7876" y2="60.96" width="0.6096" layer="1"/>
 <wire x1="27.7876" y1="60.96" x2="15.1892" y2="69.7484" width="0.6096" layer="1"/>
 <wire x1="15.1892" y1="57.2516" x2="15.1892" y2="69.7484" width="0.6096" layer="1"/>

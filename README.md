@@ -1,6 +1,11 @@
 E11
 ===
 
+##Contact
+Sherman Lam
+slam@g.hmc.edu / shermanator94@yahoo.com
+(626)383-1787
+
 ##Overview
 This repository is used for storing any data for HMC's E11 course. It is primarily used for keeping track of the the beacon boards used for the competition playing field.
 

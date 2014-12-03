@@ -940,7 +940,7 @@ design rules under a new name.</description>
 <element name="C2" library="SparkFun-Capacitors" package="CPOL-RADIAL-10UF-25V" value="47uF" x="85.09" y="71.12"/>
 <element name="C3" library="SparkFun-Capacitors" package="CPOL-RADIAL-10UF-25V" value="47uF" x="85.09" y="60.96"/>
 <element name="LED1" library="led" package="CP41B" value="" x="36.83" y="44.45" rot="R90"/>
-<element name="LED2" library="led" package="CP41B" value="" x="36.83" y="34.29" rot="R90"/>
+<element name="HF5-R5590" library="led" package="CP41B" value="" x="36.83" y="34.29" rot="R90"/>
 <element name="R1" library="SparkFun-Resistors" package="AXIAL-0.4" value="33" x="33.02" y="66.04" rot="R180"/>
 <element name="R2" library="SparkFun-Resistors" package="AXIAL-0.4" value="200" x="63.5" y="52.07" rot="R270"/>
 <element name="S1" library="SparkFun-Electromechanical" package="TACTILE-PTH" value="SWITCH-MOMENTARY-2PTH" x="91.44" y="49.53"/>
@@ -977,7 +977,7 @@ design rules under a new name.</description>
 <element name="C7" library="SparkFun-Passives" package="CAP-PTH-5MM" value="0.1uF" x="80.01" y="60.96" rot="R90"/>
 <element name="R16" library="SparkFun-Resistors" package="AXIAL-0.4" value="33" x="33.02" y="71.12" rot="R180"/>
 <element name="MODE3" library="e11" package="SPDT_SLIDE_SWITCH" value="SPD_SLIDE_SWITCH" x="91.44" y="24.13"/>
-<element name="S2" library="switch-omron" package="B3F-40XX" value="" x="12.7" y="12.7" rot="R270">
+<element name="B3F-4050" library="switch-omron" package="B3F-40XX" value="" x="12.7" y="12.7" rot="R270">
 <attribute name="OC_NEWARK" value="36K3105" x="12.7" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="B3F-4000" x="12.7" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="OMRON COMPONENTS USA" x="12.7" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1052,8 +1052,8 @@ design rules under a new name.</description>
 <wire x1="86.36" y1="63.5" x2="86.36" y2="60.96" width="0.6096" layer="1"/>
 <contactref element="LED1" pad="2"/>
 <contactref element="LED1" pad="3"/>
-<contactref element="LED2" pad="2"/>
-<contactref element="LED2" pad="3"/>
+<contactref element="HF5-R5590" pad="2"/>
+<contactref element="HF5-R5590" pad="3"/>
 <wire x1="39.37" y1="36.83" x2="39.37" y2="41.91" width="0.6096" layer="1"/>
 <contactref element="R3" pad="P$2"/>
 <contactref element="R13" pad="P$2"/>
@@ -1168,8 +1168,8 @@ design rules under a new name.</description>
 <wire x1="66.04" y1="5.08" x2="64.77" y2="3.81" width="0.6096" layer="1"/>
 <contactref element="S3" pad="3"/>
 <contactref element="S3" pad="4"/>
-<contactref element="S2" pad="3"/>
-<contactref element="S2" pad="4"/>
+<contactref element="B3F-4050" pad="3"/>
+<contactref element="B3F-4050" pad="4"/>
 <wire x1="10.2108" y1="69.7484" x2="10.2108" y2="57.2516" width="0.6096" layer="1"/>
 <wire x1="10.2108" y1="6.4516" x2="10.2108" y2="18.9484" width="0.6096" layer="1"/>
 <wire x1="10.2108" y1="18.9484" x2="10.2108" y2="57.2516" width="0.6096" layer="1"/>
@@ -1333,8 +1333,8 @@ design rules under a new name.</description>
 <contactref element="R11" pad="P$2"/>
 <contactref element="S3" pad="1"/>
 <contactref element="S3" pad="2"/>
-<contactref element="S2" pad="1"/>
-<contactref element="S2" pad="2"/>
+<contactref element="B3F-4050" pad="1"/>
+<contactref element="B3F-4050" pad="2"/>
 <wire x1="73.66" y1="60.96" x2="27.7876" y2="60.96" width="0.6096" layer="1"/>
 <wire x1="27.7876" y1="60.96" x2="15.1892" y2="69.7484" width="0.6096" layer="1"/>
 <wire x1="15.1892" y1="57.2516" x2="15.1892" y2="69.7484" width="0.6096" layer="1"/>
@@ -1497,8 +1497,8 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$25">
 <contactref element="R16" pad="P$2"/>
-<contactref element="LED2" pad="4"/>
-<contactref element="LED2" pad="1"/>
+<contactref element="HF5-R5590" pad="4"/>
+<contactref element="HF5-R5590" pad="1"/>
 <wire x1="27.94" y1="71.12" x2="30.48" y2="71.12" width="0.6096" layer="16"/>
 <wire x1="30.48" y1="71.12" x2="31.75" y2="69.85" width="0.6096" layer="16"/>
 <wire x1="31.75" y1="69.85" x2="31.75" y2="52.07" width="0.6096" layer="16"/>
