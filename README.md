@@ -7,13 +7,13 @@ slam@g.hmc.edu / shermanator94@yahoo.com
 (626)383-1787
 
 ##Overview
-This repository is used for storing any data for HMC's E11 course. It is primarily used for keeping track of the the beacon boards used for the competition playing field.
+This repository is used for storing any data for HMC's E11 course. It is primarily used for keeping track of the the beacon boards used for the competition playing field. The beacons are all designed using Eagle. Included in this repository is a library for custom components.
 
 ##Beacon Boards 
 
 ###V2
 
-Second generation beacon boards and features uniformity between all types of beacons. All boards have the same code and hardware. 
+Second generation beacon boards and features uniformity between all types of beacons. All boards have the same code and hardware. This board was used in the 2014 Fall E11 course.
 
 ####Features
 - All boards are capable of being bumped or flashed to. 
@@ -33,7 +33,7 @@ Second generation beacon boards and features uniformity between all types of bea
 
 ###V3
 
-Third generation board that uses the 2nd generation board's general layout but fixes the known issues
+Third generation board that uses the 2nd generation board's general layout but fixes the known issues. This board has not been produced.
 
 ####Features
 - Uses the omron tactile switches (B3F-4050).
