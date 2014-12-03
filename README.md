@@ -31,4 +31,8 @@ Second generation beacon boards and features uniformity between all types of bea
 Third generation board that uses the 2nd generation board's general layout but fixes the known issues
 
 ####Features
-- (will) Use the omron tactile switches.
+- Uses the omron tactile switches (B3F-4050).
+- Additional switch to select between starting color.
+
+####Known Issues / TODO
+- Change switch for starting color to 3 pos? (green, white, unclaimed).
